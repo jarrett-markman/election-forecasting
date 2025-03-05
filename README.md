@@ -19,7 +19,7 @@ From the data we decided to use the following variables:
 - **proj_margin**: projected margin from the democratic perspective (democratic percentage — republican percentage)
 - **winner**: a binary (0/1) representing whether a democrat (1) or republican (0) won the state.
 
-To make our predictions, we build an eXtreme Gradient Boost model (XGBoost) on prior presidential polling data and results from 200-2020d, and trained and tested it with its built-in ability of cross validation. 
+To make our predictions, we build an eXtreme Gradient Boost model (XGBoost) on prior presidential polling data and results from 2000-2024, and trained and tested it with its built-in ability of cross validation. 
 
 Our train and test merror’s were 0.014 and 0.086 respectively. One of the biggest concerns with machine learning models like XGBoost is overfitting — the idea that the model will be highly effective in predicting prior observations, rather than predicting new data. Given the test merror was 0.086, we weren’t concerned about overfitting.
 
